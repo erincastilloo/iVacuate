@@ -22,7 +22,11 @@
         <activity android:name=".DisasterEarthquake" />
         <activity android:name=".DisasterFlood" />
         <activity android:name=".DisasterLandslide" />
-        <activity android:name=".DisasterVolcanic"></activity>
+        <activity android:name=".DisasterVolcanic" />
+        <activity android:name=".VolcanicLine" />
+        <activity android:name=".Earthline" />
+        <activity android:name=".FloodLine" />
+        <activity android:name=".LandLine"></activity>
     </application>
 
 </manifest>
