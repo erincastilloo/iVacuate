@@ -4,35 +4,36 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#f9f9ce">
 
     <TextView
         android:id="@+id/textView27"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
         android:text="Emergency Hotlines"
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.549"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.110000014" />
+        app:layout_constraintVertical_bias="0.058" />
 
     <Button
         android:id="@+id/nationalHotline"
         android:layout_width="266dp"
-        android:layout_height="wrap_content"
+        android:layout_height="69dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
+        android:background="@drawable/bgbg22"
         android:onClick="process2"
         android:text="National Emegency Hotline (911)"
         android:textSize="16sp"
@@ -40,34 +41,37 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView27"
-        app:layout_constraintVertical_bias="0.060000002" />
+        app:layout_constraintVertical_bias="0.04" />
 
     <Button
         android:id="@+id/volcanicHotline"
         android:layout_width="266dp"
-        android:layout_height="wrap_content"
+        android:layout_height="69dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/bgbg22"
         android:onClick="process2"
         android:text="In case of Volcanic Eruption"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.442"
+        app:layout_constraintHorizontal_bias="0.4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/landHotline"
-        app:layout_constraintVertical_bias="0.597" />
+        app:layout_constraintVertical_bias="0.804" />
 
     <Button
         android:id="@+id/floodHotline"
         android:layout_width="266dp"
-        android:layout_height="wrap_content"
+        android:layout_height="69dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
+        android:background="@drawable/bgbg22"
+        android:onClick="process2"
         android:text="In case of Flood"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -75,18 +79,18 @@
         app:layout_constraintHorizontal_bias="0.442"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/landHotline"
-        app:layout_constraintVertical_bias="0.110000014" />
+        app:layout_constraintVertical_bias="0.086" />
 
     <Button
         android:id="@+id/landHotline"
         android:layout_width="266dp"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="8dp"
+        android:layout_height="69dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/bgbg22"
+        android:onClick="process2"
         android:text="In case of Landslide"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -94,23 +98,24 @@
         app:layout_constraintHorizontal_bias="0.442"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/earthHotline"
-        app:layout_constraintVertical_bias="0.110000014" />
+        app:layout_constraintVertical_bias="0.051" />
 
     <Button
         android:id="@+id/earthHotline"
         android:layout_width="266dp"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="8dp"
+        android:layout_height="69dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/bgbg22"
+        android:onClick="process2"
         android:text="In case of Earthquake"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.442"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/nationalHotline"
-        app:layout_constraintVertical_bias="0.060000002" />
+        app:layout_constraintVertical_bias="0.045" />
 </android.support.constraint.ConstraintLayout>

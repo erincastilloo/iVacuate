@@ -4,6 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="#f9f9ce"
     android:layout_height="match_parent">
 
     <TextView
@@ -77,12 +78,12 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.07"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView6"
+        app:layout_constraintTop_toBottomOf="@+id/picPasayPool"
         app:layout_constraintVertical_bias="0.07999998"
         app:srcCompat="@drawable/b" />
 
     <ImageView
-        android:id="@+id/imageView5"
+        android:id="@+id/picNavotasHigh"
         android:layout_width="95dp"
         android:layout_height="95dp"
         android:layout_marginBottom="8dp"
@@ -100,7 +101,7 @@
         app:srcCompat="@drawable/c" />
 
     <ImageView
-        android:id="@+id/imageView6"
+        android:id="@+id/picPasayPool"
         android:layout_width="95dp"
         android:layout_height="95dp"
         android:layout_marginBottom="8dp"
@@ -133,7 +134,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.03"
-        app:layout_constraintStart_toEndOf="@+id/imageView6"
+        app:layout_constraintStart_toEndOf="@+id/picPasayPool"
         app:layout_constraintTop_toBottomOf="@+id/incase_of_earthquake_text_view"
         app:layout_constraintVertical_bias="0.06999999" />
 
@@ -151,7 +152,7 @@
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView6"
+        app:layout_constraintStart_toEndOf="@+id/picPasayPool"
         app:layout_constraintTop_toBottomOf="@+id/textView"
         app:layout_constraintVertical_bias="0.0" />
 
@@ -191,7 +192,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.02"
-        app:layout_constraintStart_toEndOf="@+id/imageView5"
+        app:layout_constraintStart_toEndOf="@+id/picNavotasHigh"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
         app:layout_constraintVertical_bias="0.13999999" />
 

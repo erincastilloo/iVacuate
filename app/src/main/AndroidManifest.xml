@@ -13,7 +13,7 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
         <activity android:name=".EvacCenter" />
@@ -26,7 +26,46 @@
         <activity android:name=".VolcanicLine" />
         <activity android:name=".Earthline" />
         <activity android:name=".FloodLine" />
-        <activity android:name=".LandLine"></activity>
+        <activity android:name=".LandLine" />
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".evacCaloo" />
+        <activity android:name=".evacManila" />
+        <activity android:name=".evacManda" />
+        <activity android:name=".evacMakati" />
+        <activity android:name=".evacNavotas" />
+        <activity android:name=".evacPasay" />
+        <activity android:name=".evacSanJuan" />
+        <activity android:name=".evacTaguig" />
+        <activity android:name=".evacQuezon" />
+        <activity android:name=".evacValenzuela" />
+        <activity android:name=".laloma" />
+        <activity android:name=".manilaCentral" />
+        <activity android:name=".ust" />
+        <activity android:name=".corazon" />
+        <activity android:name=".bangkalhall" />
+        <activity android:name=".uMak" />
+        <activity android:name=".mandaGym" />
+        <activity android:name=".mandaElem" />
+        <activity android:name=".navotasElem" />
+        <activity android:name=".navotasHigh" />
+        <activity android:name=".salapanhall" />
+        <activity android:name=".pinaglabanan" />
+        <activity android:name=".senator" />
+        <activity android:name=".taguigscience" />
+        <activity android:name=".cuneta" />
+        <activity android:name=".pasaypool" />
+        <activity android:name=".stodomingo" />
+        <activity android:name=".singtala" />
+        <activity android:name=".threescenter" />
+        <activity android:name=".parada"></activity>
     </application>
 
 </manifest>

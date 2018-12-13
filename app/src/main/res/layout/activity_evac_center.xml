@@ -3,339 +3,376 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#f9f9ce">
 
     <TextView
         android:id="@+id/Evacuation_centers_in_metro_manila_text_view"
-        android:layout_width="229dp"
-        android:layout_height="66dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
+        android:layout_width="335dp"
+        android:layout_height="46dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
         android:gravity="center"
         android:text="Evacuation centers in Metro Manila "
-        android:textSize="25sp"
+        android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.06999999" />
+        app:layout_constraintVertical_bias="0.0" />
 
-    <LinearLayout
-        android:id="@+id/linearLayout8"
-        android:layout_width="108dp"
-        android:layout_height="70dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
+    <ImageButton
+        android:id="@+id/btnCaloo"
+        style="@style/Widget.AppCompat.ImageButton"
+        android:layout_width="76dp"
+        android:layout_height="77dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:layout_weight="1"
-        android:background="@drawable/customborder"
-        android:orientation="horizontal"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/cardview_shadow_end_color"
+        android:clickable="true"
+        android:cropToPadding="true"
+        android:onClick="evaccenter"
+        android:src="@drawable/calooclogo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.21"
+        app:layout_constraintHorizontal_bias="0.068"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout4"
-        app:layout_constraintVertical_bias="0.060000002">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.131" />
 
-        <TextView
-            android:id="@+id/textView17"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="4dp"
-            android:layout_marginTop="5dp"
-            android:layout_weight="1"
-            android:text="Navotas"
-            android:textSize="16sp"
-            android:textStyle="bold" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/linearLayout11"
-        android:layout_width="108dp"
-        android:layout_height="70dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
+    <ImageButton
+        android:id="@+id/btnMnl"
+        android:layout_width="78dp"
+        android:layout_height="78dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:background="@drawable/customborder"
-        android:orientation="horizontal"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/cardview_shadow_end_color"
+        android:clickable="true"
+        android:onClick="evaccenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.21"
+        app:layout_constraintHorizontal_bias="0.693"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout8"
-        app:layout_constraintVertical_bias="0.01999998">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.131"
+        app:srcCompat="@drawable/manilalogo" />
 
-        <TextView
-            android:id="@+id/textView18"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:layout_weight="1"
-            android:text="San Juan"
-            android:textSize="16sp"
-            android:textStyle="bold" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/linearLayout3"
-        android:layout_width="108dp"
-        android:layout_height="70dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
+    <ImageButton
+        android:id="@+id/btnManda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:layout_weight="1"
-        android:background="@drawable/customborder"
-        android:orientation="horizontal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.46"
-        app:layout_constraintStart_toEndOf="@+id/linearLayout2"
-        app:layout_constraintTop_toBottomOf="@+id/Evacuation_centers_in_metro_manila_text_view"
-        app:layout_constraintVertical_bias="0.00999999">
-
-        <TextView
-            android:id="@+id/textView19"
-            android:layout_width="77dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:text="City Of Manila"
-            android:textSize="12sp"
-            android:textStyle="bold" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/linearLayout7"
-        android:layout_width="108dp"
-        android:layout_height="70dp"
-        android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_weight="1"
-        android:background="@drawable/customborder"
-        android:orientation="horizontal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.46"
-        app:layout_constraintStart_toEndOf="@+id/linearLayout4"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
-        app:layout_constraintVertical_bias="0.04000002">
-
-        <TextView
-            android:id="@+id/textView20"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="7dp"
-            android:layout_marginTop="5dp"
-            android:layout_weight="1"
-            android:text="Makati"
-            android:textSize="16sp"
-            android:textStyle="bold" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/linearLayout14"
-        android:layout_width="107dp"
-        android:layout_height="70dp"
         android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_weight="1"
-        android:background="@drawable/customborder"
-        android:orientation="horizontal"
+        android:background="@color/cardview_shadow_end_color"
+        android:clickable="true"
+        android:onClick="evaccenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.46"
-        app:layout_constraintStart_toEndOf="@+id/linearLayout11"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout6"
-        app:layout_constraintVertical_bias="0.01999998">
-
-        <TextView
-            android:id="@+id/textView21"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="6dp"
-            android:layout_marginTop="6dp"
-            android:layout_weight="1"
-            android:text="Taguig"
-            android:textSize="16sp"
-            android:textStyle="bold" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/linearLayout2"
-        android:layout_width="108dp"
-        android:layout_height="70dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_weight="1"
-        android:background="@drawable/customborder"
-        android:orientation="horizontal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.21"
+        app:layout_constraintHorizontal_bias="0.068"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Evacuation_centers_in_metro_manila_text_view"
-        app:layout_constraintVertical_bias="0.00999999">
+        app:layout_constraintTop_toBottomOf="@+id/btnCaloo"
+        app:layout_constraintVertical_bias="0.003"
+        app:srcCompat="@drawable/madalogo" />
 
-        <TextView
-            android:id="@+id/textView22"
-            android:layout_width="0dp"
-            android:layout_height="32dp"
-            android:layout_weight="1"
-            android:text="Caloocan"
-            android:textSize="16sp"
-            android:textStyle="bold" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/linearLayout4"
-        android:layout_width="108dp"
-        android:layout_height="70dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
+    <ImageButton
+        android:id="@+id/btnMakati"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:layout_weight="1"
-        android:background="@drawable/customborder"
-        android:orientation="horizontal"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/cardview_shadow_end_color"
+        android:clickable="true"
+        android:onClick="evaccenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.21"
+        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintStart_toEndOf="@+id/btnManda"
+        app:layout_constraintTop_toBottomOf="@+id/btnMnl"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/makatilogo" />
+
+    <ImageButton
+        android:id="@+id/btnPasay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/cardview_shadow_end_color"
+        android:clickable="true"
+        android:onClick="evaccenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.696"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
-        app:layout_constraintVertical_bias="0.04000002">
+        app:layout_constraintTop_toBottomOf="@+id/btnMakati"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/pasaylogo" />
 
-        <TextView
-            android:id="@+id/textView23"
-            android:layout_width="77dp"
-            android:layout_height="36dp"
-            android:layout_weight="1"
-            android:text="Las Piñas "
-            android:textSize="15sp"
-            android:textStyle="bold" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/linearLayout6"
-        android:layout_width="108dp"
-        android:layout_height="70dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
+    <ImageButton
+        android:id="@+id/btnTaguig"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:layout_weight="1"
-        android:background="@drawable/customborder"
-        android:orientation="horizontal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.46"
-        app:layout_constraintStart_toEndOf="@+id/linearLayout8"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout7"
-        app:layout_constraintVertical_bias="0.060000002">
-
-        <TextView
-            android:id="@+id/textView24"
-            android:layout_width="20dp"
-            android:layout_height="43dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="5dp"
-
-            android:layout_weight="1"
-            android:text="Pasay"
-            android:textSize="16sp"
-            android:textStyle="bold" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/linearLayout5"
-        android:layout_width="107dp"
-        android:layout_height="70dp"
-        android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_weight="1"
-        android:background="@drawable/customborder"
-        android:orientation="horizontal"
+        android:layout_marginBottom="8dp"
+        android:background="@color/cardview_shadow_end_color"
+        android:clickable="true"
+        android:onClick="evaccenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.21"
+        app:layout_constraintHorizontal_bias="0.684"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout11"
-        app:layout_constraintVertical_bias="0.07999998">
+        app:layout_constraintTop_toBottomOf="@+id/btnPasay"
+        app:layout_constraintVertical_bias="0.108"
+        app:srcCompat="@drawable/taguiglogo" />
 
-        <TextView
-            android:id="@+id/textView25"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:text="Quezon City"
-            android:textStyle="bold" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/linearLayout15"
-        android:layout_width="107dp"
-        android:layout_height="70dp"
-        android:layout_marginBottom="8dp"
+    <ImageButton
+        android:id="@+id/btnVal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_weight="1"
-        android:background="@drawable/customborder"
-        android:orientation="horizontal"
+        android:layout_marginBottom="8dp"
+        android:background="@color/cardview_shadow_end_color"
+        android:clickable="true"
+        android:onClick="evaccenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.45"
-        app:layout_constraintStart_toEndOf="@+id/linearLayout5"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout14"
-        app:layout_constraintVertical_bias="0.0">
+        app:layout_constraintHorizontal_bias="0.635"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnTaguig"
+        app:layout_constraintVertical_bias="0.328"
+        app:srcCompat="@drawable/vallogo" />
 
-        <TextView
-            android:id="@+id/textView26"
-            android:layout_width="83dp"
-            android:layout_height="33dp"
-            android:layout_marginLeft="3dp"
-            android:layout_marginTop="5dp"
-            android:layout_weight="1"
-            android:text="Valenzuela"
-            android:textSize="13sp"
-            android:textStyle="bold" />
-    </LinearLayout>
+    <ImageButton
+        android:id="@+id/btnNavotas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/cardview_shadow_end_color"
+        android:clickable="true"
+        android:onClick="evaccenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnPasay"
+        app:layout_constraintHorizontal_bias="0.166"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnManda"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/navotaslogo1" />
+
+    <ImageButton
+        android:id="@+id/btnSanJuan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/cardview_shadow_end_color"
+        android:clickable="true"
+        android:onClick="evaccenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnTaguig"
+        app:layout_constraintHorizontal_bias="0.183"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnNavotas"
+        app:layout_constraintVertical_bias="0.123"
+        app:srcCompat="@drawable/sanjuanlogo" />
+
+    <ImageButton
+        android:id="@+id/btnQuezon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/cardview_shadow_end_color"
+        android:clickable="true"
+        android:onClick="evaccenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnVal"
+        app:layout_constraintHorizontal_bias="0.173"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSanJuan"
+        app:layout_constraintVertical_bias="0.276"
+        app:srcCompat="@drawable/qclogo" />
+
+    <TextView
+        android:id="@+id/caloocan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Caloocan"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnMnl"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/btnCaloo"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.174" />
+
+    <TextView
+        android:id="@+id/manda"
+        android:layout_width="wrap_content"
+        android:layout_height="16dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="8dp"
+        android:text="Mandaluyong"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnMakati"
+        app:layout_constraintHorizontal_bias="0.111"
+        app:layout_constraintStart_toEndOf="@+id/btnManda"
+        app:layout_constraintTop_toBottomOf="@+id/caloocan"
+        app:layout_constraintVertical_bias="0.137" />
+
+    <TextView
+        android:id="@+id/navotas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Navotas"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnPasay"
+        app:layout_constraintHorizontal_bias="0.115"
+        app:layout_constraintStart_toEndOf="@+id/btnNavotas"
+        app:layout_constraintTop_toTopOf="@+id/manda"
+        app:layout_constraintVertical_bias="0.189" />
+
+    <TextView
+        android:id="@+id/sanJuan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="San Juan"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnTaguig"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/btnSanJuan"
+        app:layout_constraintTop_toBottomOf="@+id/navotas"
+        app:layout_constraintVertical_bias="0.222" />
+
+    <TextView
+        android:id="@+id/quezonCity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Quezon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnVal"
+        app:layout_constraintHorizontal_bias="0.282"
+        app:layout_constraintStart_toEndOf="@+id/btnQuezon"
+        app:layout_constraintTop_toBottomOf="@+id/sanJuan"
+        app:layout_constraintVertical_bias="0.532" />
+
+    <TextView
+        android:id="@+id/manila"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Manila"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/btnMnl"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.174" />
+
+    <TextView
+        android:id="@+id/makati"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Makati"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.032"
+        app:layout_constraintStart_toEndOf="@+id/btnMakati"
+        app:layout_constraintTop_toBottomOf="@+id/manila"
+        app:layout_constraintVertical_bias="0.136" />
+
+    <TextView
+        android:id="@+id/pasay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Pasay"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.081"
+        app:layout_constraintStart_toEndOf="@+id/btnPasay"
+        app:layout_constraintTop_toBottomOf="@+id/makati"
+        app:layout_constraintVertical_bias="0.147" />
+
+    <TextView
+        android:id="@+id/taguig"
+        android:layout_width="wrap_content"
+        android:layout_height="16dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Taguig"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.142"
+        app:layout_constraintStart_toEndOf="@+id/btnTaguig"
+        app:layout_constraintTop_toBottomOf="@+id/pasay"
+        app:layout_constraintVertical_bias="0.225" />
+
+    <TextView
+        android:id="@+id/val"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Valenzuela"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/btnVal"
+        app:layout_constraintTop_toBottomOf="@+id/taguig"
+        app:layout_constraintVertical_bias="0.489" />
 
 
 </android.support.constraint.ConstraintLayout>

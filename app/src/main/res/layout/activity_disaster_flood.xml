@@ -4,6 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="#f9f9ce"
     android:layout_height="match_parent">
 
     <android.support.constraint.ConstraintLayout
@@ -27,7 +28,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toEndOf="@+id/imageView2"
+            app:layout_constraintStart_toEndOf="@+id/omgviii"
             app:layout_constraintTop_toBottomOf="@+id/textView15"
             app:layout_constraintVertical_bias="0.01999998" />
 
@@ -45,7 +46,7 @@
             android:textSize="12sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/imageView2"
+            app:layout_constraintStart_toEndOf="@+id/omgviii"
             app:layout_constraintTop_toBottomOf="@+id/textView10"
             app:layout_constraintVertical_bias="0.00999999" />
 
@@ -88,7 +89,7 @@
             app:srcCompat="@drawable/flood1" />
 
         <ImageView
-            android:id="@+id/imageView2"
+            android:id="@+id/omgviii"
             android:layout_width="95dp"
             android:layout_height="95dp"
             android:layout_marginBottom="8dp"
@@ -106,7 +107,7 @@
             app:srcCompat="@drawable/flood2" />
 
         <ImageView
-            android:id="@+id/imageView3"
+            android:id="@+id/mamammo"
             android:layout_width="95dp"
             android:layout_height="95dp"
             android:layout_marginBottom="8dp"
@@ -119,7 +120,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.06"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView2"
+            app:layout_constraintTop_toBottomOf="@+id/omgviii"
             app:layout_constraintVertical_bias="0.17000002"
             app:srcCompat="@drawable/flood3" />
 
@@ -178,7 +179,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toEndOf="@+id/imageView2"
+            app:layout_constraintStart_toEndOf="@+id/omgviii"
             app:layout_constraintTop_toBottomOf="@+id/textView13"
             app:layout_constraintVertical_bias="0.07999998" />
 
@@ -198,7 +199,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toEndOf="@+id/imageView3"
+            app:layout_constraintStart_toEndOf="@+id/mamammo"
             app:layout_constraintTop_toBottomOf="@+id/textView14"
             app:layout_constraintVertical_bias="0.13" />
 
@@ -243,7 +244,7 @@
         app:srcCompat="@drawable/flood1" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/omgviii"
         android:layout_width="95dp"
         android:layout_height="95dp"
         android:layout_marginBottom="8dp"
@@ -261,7 +262,7 @@
         app:srcCompat="@drawable/flood2" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/mamammo"
         android:layout_width="95dp"
         android:layout_height="95dp"
         android:layout_marginBottom="8dp"
@@ -274,7 +275,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.06"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/omgviii"
         app:layout_constraintVertical_bias="0.17000002"
         app:srcCompat="@drawable/flood3" />
 

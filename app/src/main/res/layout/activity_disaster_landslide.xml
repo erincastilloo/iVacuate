@@ -4,25 +4,24 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="#f9f9ce"
     android:layout_height="match_parent">
 
     <TextView
         android:id="@+id/textView17"
         android:layout_width="234dp"
         android:layout_height="61dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginStart="8dp"
+        android:layout_marginBottom="8dp"
         android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/imageView9"
-        app:layout_constraintTop_toBottomOf="@+id/textView19"
-        app:layout_constraintVertical_bias="0.110000014" />
+        app:layout_constraintStart_toEndOf="@+id/imgviii"
+        app:layout_constraintTop_toBottomOf="@+id/textView20"
+        app:layout_constraintVertical_bias="0.349" />
 
     <TextView
         android:id="@+id/textView12"
@@ -39,7 +38,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/imageView7"
+        app:layout_constraintStart_toEndOf="@+id/picTaguighigh"
         app:layout_constraintTop_toBottomOf="@+id/textView9"
         app:layout_constraintVertical_bias="0.09" />
 
@@ -64,7 +63,7 @@
         app:layout_constraintVertical_bias="0.058" />
 
     <ImageView
-        android:id="@+id/imageView7"
+        android:id="@+id/picTaguighigh"
         android:layout_width="95dp"
         android:layout_height="95dp"
         android:layout_marginBottom="8dp"
@@ -95,26 +94,24 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.06"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView7"
+        app:layout_constraintTop_toBottomOf="@+id/picTaguighigh"
         app:layout_constraintVertical_bias="0.100000024"
         app:srcCompat="@drawable/landslide2" />
 
     <ImageView
-        android:id="@+id/imageView9"
+        android:id="@+id/imgviii"
         android:layout_width="95dp"
         android:layout_height="95dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.06"
+        app:layout_constraintHorizontal_bias="0.084"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView8"
-        app:layout_constraintVertical_bias="0.17000002"
+        app:layout_constraintVertical_bias="0.17"
         app:srcCompat="@drawable/landslide3" />
 
     <TextView
